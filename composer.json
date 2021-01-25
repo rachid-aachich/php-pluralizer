@@ -1,0 +1,17 @@
+{
+    "name": "rachid/pluralizer",
+    "description": "PHP Pluralizer, to convert English words between Singular and Plural.",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rachid Aachich",
+            "email": "r.aachich@gmail.com"
+        }
+    ],
+	 "autoload": {
+        "psr-4": {"rachid/pluralizer\\": "src/"}
+    },
+    "minimum-stability": "stable"
+}
