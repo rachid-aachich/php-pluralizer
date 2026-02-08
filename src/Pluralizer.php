@@ -61,6 +61,7 @@ class Pluralizer
     );
 
     static $singular = array(
+        '/(status)$/i'             	=> "$1",
         '/(quiz)zes$/i'             => "$1",
         '/(matr)ices$/i'            => "$1ix",
         '/(vert|ind)ices$/i'        => "$1ex",
